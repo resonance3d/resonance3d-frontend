@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Define custom font classes */
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  @apply font-montserrat;
+}
+
+/* Apply PT Sans to paragraphs */
+p, li, span a{
+  font-weight: 400;
+  @apply font-ptsans;
+}
+/* src/styles/globals.css */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+
+  /* src/styles/globals.css */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.bg-gradient-animated {
+  background: linear-gradient(45deg, #ff4b2b, #ff416c, #ff6a00);
+  background-size: 300% 300%;
+  animation: gradientAnimation 5s ease infinite;
+}
+.myredcolor{
+  color: '#FF0000';
+}
+  
+.no-margin {
+  margin: 0 !important;
+  padding: 0 !important;
+}
