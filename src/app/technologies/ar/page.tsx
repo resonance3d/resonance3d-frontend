@@ -123,7 +123,7 @@ const ARTechnology = () => {
 
           <div className="flex-1">
             <img
-              src="/images/interior/Kitchen/image7.jpg"
+              src="/images/interior/kitchen/image7.jpg"
               alt="Furniture AR"
               className="w-full h-auto object-contain rounded-lg"
              
