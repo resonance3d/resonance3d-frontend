@@ -196,7 +196,7 @@ const ThreeDModeling = () => {
           {/* Right Section: Image */}
           <div className="flex-1">
             <img
-                            src="/images/interior/Bedroom/image2.jpg"
+                            src="/images/interior/bedroom/image2.jpg"
                             alt="AI Development"
                           
                            
