@@ -12,7 +12,7 @@ const slides = [
     link: 'technologies/3d-modeling',
   },
   {
-    image: '/images/interior/Living-Room/leaving3.jpg',
+    image: '/images/interior/Living-room/leaving3.jpg',
     heading: 'Interior Design Excellence',
     description: 'Transform spaces with stunning interior designs and visualizations.',
     link: '/portfolio',
