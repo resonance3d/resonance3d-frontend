@@ -41,7 +41,7 @@ const UnderstandingAR: React.FC = () => {
         Understanding Augmented Reality: A Gateway to the Future
       </h1>
        <div className="relative w-full h-[800px] mx-auto">
-       <img
+       <Image
         src="/images/ar/ar.jpg"
         alt="3D man illustration"
         className="w-full h-full object-contain"
