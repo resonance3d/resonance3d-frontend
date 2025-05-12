@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import TechnologiesHero from "@/components/technologiesHero";
 
 const portfolioItems = [
-  { title: "Interior Design", image: "/images/interior/Bedroom/image1.jpg", tags: ["Interior"], link: "/portfolio/interior" },
+  { title: "Interior Design", image: "/images/interior/bedroom/image1.jpg", tags: ["Interior"], link: "/portfolio/interior" },
   { title: " Fashion Design", image: "/images/fashion/image-12.jpg", tags: ["Fashion"], link: "/portfolio/fashion"},
-  { title: "High-Quality Rendering", image: "/images/Render/image6.jpg", tags: ["Rendering"], link: "/portfolio/rendering" },
+  { title: "High-Quality Rendering", image: "/images/render/image6.jpg", tags: ["Rendering"], link: "/portfolio/rendering" },
   { title: "Animation Demo", videoUrl: "https://www.youtube.com/embed/YonF6aZ_R74", tags: ["Animation"], link: "/portfolio/animation" },
   { title: "Realistic 3D Model", videoUrl: "https://www.youtube.com/embed/2I_pzkpmjDQ", tags: ["3D Modeling"], link: "/portfolio/3d-modeling" },
-  { title: "Interactive AR-VR Demo", videoUrl: "https://www.youtube.com/embed/YonF6aZ_R74", tags: ["AR-VR"], link: "/portfolio/ar-vr" },
+  { title: "Interactive AR-VR Demo", videoUrl: "https://www.youtube.com/embed/06zOCy_gAaI", tags: ["AR-VR"], link: "/portfolio/ar-vr" },
 ];
 
 // Tag Colors
