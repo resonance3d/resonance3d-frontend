@@ -42,7 +42,7 @@ const UnderstandingAR: React.FC = () => {
       </h1>
        <div className="relative w-full h-[800px] mx-auto">
        <img
-        src="/images/ar/Ar.jpg"
+        src="/images/ar/ar.jpg"
         alt="3D man illustration"
         className="w-full h-full object-contain"
       />
